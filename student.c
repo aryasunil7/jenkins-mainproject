@@ -6,6 +6,9 @@ struct student
  {
  
    char name[10];
+   float m1,m2,m3;
+   float total;
+   float average;
    int roll;
 
   }s[4];
@@ -25,25 +28,26 @@ int main()
 
         printf("\nFor Rollno %d\n",s[i].roll);
 
-        printf("Enter Name: ");
+        printf("\nEnter Name: ");
         scanf("%s",s[i].name);
 
+        printf("\nEnter Mark1: ");
+        scanf("%f",&s[i].mark1);
+
+        printf("\nEnter Marks2: ");
+        scanf("%f",&s[i].mark2);
+
+        printf("\nEnter Mark3: ");
+        scanf("%f",&s[i].mark3);
+
+        s[i].total=s[i].mark1+s[i].mark2+s[i].mark3;
+        s[i].average = s[i].total/3;
         printf("\n");
 
        }
 
-   printf("Displaying Informations\n\n");
-
-      for(i=0;i<4;i++)
-
-       {
-
-         printf("\nRollno: %d\n",i+1);
-         printf("Name:");
-         puts(s[i].name);
-
-        }
-
+  studentmark()
+   
     return 0;
 
   }

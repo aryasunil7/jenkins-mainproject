@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<studentmake.h>
 void mydisplay(void)
 {
 	cout << "\nDisplaying Information: " << endl;

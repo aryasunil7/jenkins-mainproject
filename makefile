@@ -1,2 +1,2 @@
-studentmake: student.c display.c
-	gcc -o studentmake student.c display.c -I.
+hellomake: studentdetails.c studentmark.c
+	gcc -o hellomake studentdetails.c studentmark.c -I.

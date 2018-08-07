@@ -32,15 +32,15 @@ int main()
         scanf("%s",s[i].name);
 
         printf("\nEnter Mark1: ");
-        scanf("%f",&s[i].mark1);
+        scanf("%f",&s[i].m1);
 
         printf("\nEnter Marks2: ");
-        scanf("%f",&s[i].mark2);
+        scanf("%f",&s[i].m2);
 
         printf("\nEnter Mark3: ");
-        scanf("%f",&s[i].mark3);
+        scanf("%f",&s[i].m3);
 
-        s[i].total=s[i].mark1+s[i].mark2+s[i].mark3;
+        s[i].total=s[i].m1+s[i].m2+s[i].m3;
         s[i].average = s[i].total/3;
         printf("\n");
 

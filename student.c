@@ -34,18 +34,7 @@ int main()
 	
 	studentmark();
 
-   printf("Displaying Informations\n\n");
-
-      for(i=0;i<4;i++)
-
-       {
-
-         printf("\nRollno: %d\n",i+1);
-         printf("Name:");
-         puts(s[i].name);
-
-        }
-
+   
     return 0;
 
   }

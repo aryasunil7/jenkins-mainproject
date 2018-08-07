@@ -13,6 +13,7 @@ struct student
 
 
 void studentmark()
+{
 
   printf("Displaying Informations\n\n");
 

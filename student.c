@@ -1,5 +1,5 @@
-#include <iostream>
-using namespace std;
+#include <stdio.h>
+
 
 struct student
 {
@@ -10,22 +10,20 @@ struct student
 
 int main()
 {
-	cout << "Enter information of students: " << endl;
+	printf("Enter information of students: ");
 
 	    // storing information
 	for(int i = 0; i < 10; ++i)
 		{
-        		s[i].roll = i+1;
-        		cout << "For roll number" << s[i].roll << "," << endl;
+			printf("\nEnter name: ");
+   		        scanf("%s", s.name);
 
-        		cout << "Enter name: ";
-        		cin >> s[i].name;
+   			printf("\nEnter roll number: ");
+    			scanf("%d", &s.roll);
 
-        		cout << "Enter marks: ";
-        		cin >> s[i].marks;
-
-        		cout << endl;
-    		}
+    			printf("\nEnter marks: ");
+    			scanf("%f", &s.marks);
+       		}
 	mydisplay();
 	return
 }

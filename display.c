@@ -1,13 +1,18 @@
 #include<stdio.h>
 void mydisplay(void)
 {
-	cout << "Displaying Information: " << endl;
+	cout << "\nDisplaying Information: " << endl;
 
 	// Displaying information
 	for(int i = 0; i < 10; ++i)
 		{
-			cout << "\nRoll number: " << i+1 << endl;
-			cout << "Name: " << s[i].name << endl;
+		    printf("\nName: ");
+    		    puts(s.name);
+
+    		    printf("Roll number: %d\n",s.roll);
+
+    		    printf("Marks: %.1f\n", s.marks);
+
 		}
 	return
 }

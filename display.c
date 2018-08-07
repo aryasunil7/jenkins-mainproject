@@ -6,9 +6,6 @@ struct student
  {
  
    int roll;
-   float mark1;
-   float mark2;
-   float mark3;
    float total;
    float average;
 
